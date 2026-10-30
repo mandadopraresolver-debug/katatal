@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Katatau Rei do Rango LTDA — sabor, qualidade e aquele rango especial. Entre em contato!">
+  <title>Katatau Rei do Rango | Sabor de verdade</title>
+  <style>
+    :root{--orange:#ff6b1a;--yellow:#ffc928;--dark:#21150f;--cream:#fff8ed;--red:#d93620}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--dark);line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    .topbar{background:var(--dark);color:#fff;padding:10px 6%;font-size:.88rem;text-align:center}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 6%;background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 3px 15px #00000012}
+    .brand{font-weight:900;font-size:1.35rem;letter-spacing:-1px;color:var(--red)}
+    .brand span{color:var(--orange)}
+    nav{display:flex;gap:25px;font-weight:700;font-size:.95rem}
+    nav a:hover{color:var(--orange)}
+    .btn{display:inline-block;background:var(--orange);color:#fff;padding:13px 23px;border-radius:30px;font-weight:800;box-shadow:0 8px 20px #ff6b1a40;transition:.2s}
+    .btn:hover{transform:translateY(-2px);background:var(--red)}
+    .hero{min-height:590px;padding:85px 7%;display:flex;align-items:center;color:#fff;background:linear-gradient(115deg,#21150ff2,#21150fb8),radial-gradient(circle at 80% 20%,#ffb52b 0,transparent 35%),linear-gradient(135deg,#a52d12,#ff7b1c);position:relative;overflow:hidden}
+    .hero:after{content:"🍔";position:absolute;right:8%;top:50%;transform:translateY(-50%) rotate(-12deg);font-size:clamp(130px,24vw,300px);filter:drop-shadow(0 20px 18px #0005)}
+    .hero-content{max-width:650px;position:relative;z-index:1}
+    .eyebrow{color:var(--yellow);font-weight:900;text-transform:uppercase;letter-spacing:3px;font-size:.85rem}
+    h1{font-size:clamp(2.7rem,6vw,5.2rem);line-height:1.02;margin:16px 0 22px;letter-spacing:-3px}
+    h1 em{font-style:normal;color:var(--yellow)}
+    .hero p{font-size:1.15rem;max-width:540px;margin-bottom:30px;color:#fff3e5}
+    section{padding:78px 7%}
+    .section-title{text-align:center;max-width:720px;margin:0 auto 42px}
+    .section-title small{color:var(--red);font-weight:900;text-transform:uppercase;letter-spacing:2px}
+    h2{font-size:clamp(2rem,4vw,3rem);line-height:1.1;margin:10px 0 14px;letter-spacing:-1px}
+    .section-title p{color:#725f53}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1100px;margin:auto}
+    .feature{background:#fff;padding:30px 25px;border-radius:20px;text-align:center;box-shadow:0 12px 35px #4a210d0c;border:1px solid #f2e5d5}
+    .feature .emoji{font-size:2.6rem}
+    .feature h3{margin:12px 0 8px;font-size:1.2rem}
+    .feature p{color:#725f53;font-size:.95rem}
+    .about{background:#fff0d9}
+    .about-inner{max-width:1000px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+    .about-art{min-height:300px;border-radius:28px;background:linear-gradient(145deg,#ffb82e,#f05a22);display:grid;place-items:center;font-size:clamp(100px,18vw,190px);box-shadow:inset 0 0 0 10px #ffffff35}
+    .about-copy p{color:#725f53;margin:15px 0 24px}
+    .contact{background:var(--dark);color:#fff;text-align:center}
+    .contact .section-title p{color:#e7cfc0}
+    .contact-cards{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:30px 0}
+    .contact-card{background:#ffffff12;border:1px solid #ffffff24;border-radius:16px;padding:20px 25px;min-width:240px}
+    .contact-card strong{display:block;color:var(--yellow);margin-bottom:5px}
+    .contact-card a:hover{color:var(--yellow)}
+    .legal{font-size:.9rem;color:#d8c4b8;margin-top:25px}
+    footer{background:#130d09;color:#cbb9ad;text-align:center;padding:22px 6%;font-size:.85rem}
+    @media(max-width:760px){header{flex-direction:column;gap:14px}nav{gap:16px;flex-wrap:wrap;justify-content:center}.hero{min-height:540px;padding:65px 7%}.hero:after{opacity:.2;right:-25px}.features{grid-template-columns:1fr}.about-inner{grid-template-columns:1fr}.about-art{min-height:220px}}
+  </style>
+</head>
+<body>
+  <div class="topbar">🍟 Um bom rango transforma qualquer momento em ocasião especial!</div>
+  <header>
+    <a class="brand" href="#">KATATAU <span>REI DO RANGO</span></a>
+    <nav aria-label="Navegação principal">
+      <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a>
+    </nav>
+    <a class="btn" href="#contato">Fale com a gente</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <div class="eyebrow">Sabor que conquista</div>
+        <h1>Seu momento merece um <em>rango especial!</em></h1>
+        <p>Bem-vindo ao Katatau Rei do Rango! Uma marca feita para quem valoriza comida gostosa, bons momentos e aquele sabor que dá vontade de repetir.</p>
+        <a class="btn" href="#contato">Entre em contato</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <small>Nosso jeito de fazer</small>
+        <h2>Mais sabor em cada momento</h2>
+        <p>Uma apresentação caprichada, atendimento próximo e o prazer de compartilhar uma boa refeição.</p>
+      </div>
+      <div class="features">
+        <article class="feature"><div class="emoji">🍔</div><h3>Paixão por comida</h3><p>O prazer de um rango gostoso está nos detalhes e na vontade de fazer bem feito.</p></article>
+        <article class="feature"><div class="emoji">🔥</div><h3>Sabor marcante</h3><p>Uma experiência descontraída para quem não abre mão de comer bem.</p></article>
+        <article class="feature"><div class="emoji">😋</div><h3>Feito para aproveitar</h3><p>Chame a gente e conheça as opções disponíveis.</p></article>
+      </div>
+    </section>
+
+    <section class="about" id="sobre">
+      <div class="about-inner">
+        <div class="about-art" aria-label="Ilustração de hambúrguer">🍔</div>
+        <div class="about-copy">
+          <small style="color:#d93620;font-weight:900;letter-spacing:2px">QUEM SOMOS</small>
+          <h2>Katatau Rei do Rango</h2>
+          <p>A Katatau Rei do Rango LTDA acredita que comida boa combina com alegria, praticidade e momentos especiais. Nosso objetivo é receber você com atenção e ajudar a encontrar uma opção gostosa para o seu dia.</p>
+          <a class="btn" href="#contato">Fale conosco</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <div class="section-title">
+        <small>Estamos à disposição</small>
+        <h2>Vamos conversar?</h2>
+        <p>Entre em contato para tirar dúvidas e consultar informações sobre nossos serviços e opções.</p>
+      </div>
+      <div class="contact-cards">
+        <div class="contact-card"><strong>✉ E-mail</strong><a href="mailto:andrexavier14@hotmail.com">andrexavier14@hotmail.com</a></div>
+        <div class="contact-card"><strong>☎ Telefone</strong><a href="tel:+556398412132">(63) 98412-132</a></div>
+      </div>
+      <p class="legal">Katatau Rei do Rango LTDA<br>CNPJ: 31.399.772/0001-71</p>
+    </section>
+  </main>
+  <footer>© 2026 Katatau Rei do Rango LTDA. Todos os direitos reservados.</footer>
+</body>
+</html>
